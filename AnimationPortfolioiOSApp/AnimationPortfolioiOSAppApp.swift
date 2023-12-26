@@ -11,7 +11,8 @@ import SwiftUI
 struct AnimationPortfolioiOSAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ProjectList(projects: Project.sampleData)
+                .preferredColorScheme(.dark)
         }
     }
 }

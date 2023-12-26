@@ -8,11 +8,24 @@
 import SwiftUI
 
 struct ProjectCardView: View {
+    let project: Project
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            VStack(alignment: .leading) {
+                Text(project.title)
+                    .font(.headline)
+                    .bold()
+                    
+                Text(project.date)
+                    .font(.caption)
+            }
+            Spacer()
+        }
+        .padding()
     }
 }
 
 #Preview {
-    ProjectCardView()
+    ProjectCardView(project: Project.sampleData[0])
+        .previewLayout(.fixed(width: 400, height: 600))
 }

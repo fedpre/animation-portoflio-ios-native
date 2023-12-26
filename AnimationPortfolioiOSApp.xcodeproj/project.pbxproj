@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9824DAD02B3AD300007CC34C /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9824DACF2B3AD300007CC34C /* Album.swift */; };
+		9824DAD32B3AD4AD007CC34C /* SpotifyHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9824DAD22B3AD4AD007CC34C /* SpotifyHome.swift */; };
 		985B9ADC2B38519E008CB95A /* AnimationPortfolioiOSAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985B9ADB2B38519E008CB95A /* AnimationPortfolioiOSAppApp.swift */; };
-		985B9ADE2B38519E008CB95A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985B9ADD2B38519E008CB95A /* ContentView.swift */; };
+		985B9ADE2B38519E008CB95A /* ProjectList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985B9ADD2B38519E008CB95A /* ProjectList.swift */; };
 		985B9AE02B38519F008CB95A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 985B9ADF2B38519F008CB95A /* Assets.xcassets */; };
 		985B9AE32B38519F008CB95A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 985B9AE22B38519F008CB95A /* Preview Assets.xcassets */; };
 		985B9AED2B38519F008CB95A /* AnimationPortfolioiOSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985B9AEC2B38519F008CB95A /* AnimationPortfolioiOSAppTests.swift */; };
 		985B9AF72B38519F008CB95A /* AnimationPortfolioiOSAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985B9AF62B38519F008CB95A /* AnimationPortfolioiOSAppUITests.swift */; };
 		985B9AF92B38519F008CB95A /* AnimationPortfolioiOSAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985B9AF82B38519F008CB95A /* AnimationPortfolioiOSAppUITestsLaunchTests.swift */; };
+		985B9B072B38532A008CB95A /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985B9B062B38532A008CB95A /* Theme.swift */; };
+		985B9B092B385658008CB95A /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985B9B082B385658008CB95A /* Project.swift */; };
+		985B9B0B2B386E87008CB95A /* ProjectCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985B9B0A2B386E87008CB95A /* ProjectCardView.swift */; };
+		985B9B102B387B52008CB95A /* SpotifyStickyHeaderDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985B9B0F2B387B52008CB95A /* SpotifyStickyHeaderDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9824DACF2B3AD300007CC34C /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		9824DAD22B3AD4AD007CC34C /* SpotifyHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyHome.swift; sourceTree = "<group>"; };
 		985B9AD82B38519E008CB95A /* AnimationPortfolioiOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationPortfolioiOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		985B9ADB2B38519E008CB95A /* AnimationPortfolioiOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationPortfolioiOSAppApp.swift; sourceTree = "<group>"; };
-		985B9ADD2B38519E008CB95A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		985B9ADD2B38519E008CB95A /* ProjectList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectList.swift; sourceTree = "<group>"; };
 		985B9ADF2B38519F008CB95A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		985B9AE22B38519F008CB95A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		985B9AE82B38519F008CB95A /* AnimationPortfolioiOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationPortfolioiOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +52,10 @@
 		985B9AF22B38519F008CB95A /* AnimationPortfolioiOSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationPortfolioiOSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		985B9AF62B38519F008CB95A /* AnimationPortfolioiOSAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationPortfolioiOSAppUITests.swift; sourceTree = "<group>"; };
 		985B9AF82B38519F008CB95A /* AnimationPortfolioiOSAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationPortfolioiOSAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		985B9B062B38532A008CB95A /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		985B9B082B385658008CB95A /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		985B9B0A2B386E87008CB95A /* ProjectCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCardView.swift; sourceTree = "<group>"; };
+		985B9B0F2B387B52008CB95A /* SpotifyStickyHeaderDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyStickyHeaderDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +83,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9824DACE2B3AD2F4007CC34C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9824DACF2B3AD300007CC34C /* Album.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9824DAD12B3AD3F9007CC34C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9824DAD22B3AD4AD007CC34C /* SpotifyHome.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		985B9ACF2B38519E008CB95A = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +122,13 @@
 		985B9ADA2B38519E008CB95A /* AnimationPortfolioiOSApp */ = {
 			isa = PBXGroup;
 			children = (
+				985B9B0E2B387B31008CB95A /* SpotifyStickyHeader */,
+				985B9B052B38530C008CB95A /* Models */,
 				985B9ADB2B38519E008CB95A /* AnimationPortfolioiOSAppApp.swift */,
-				985B9ADD2B38519E008CB95A /* ContentView.swift */,
+				985B9ADD2B38519E008CB95A /* ProjectList.swift */,
 				985B9ADF2B38519F008CB95A /* Assets.xcassets */,
 				985B9AE12B38519F008CB95A /* Preview Content */,
+				985B9B0A2B386E87008CB95A /* ProjectCardView.swift */,
 			);
 			path = AnimationPortfolioiOSApp;
 			sourceTree = "<group>";
@@ -125,6 +156,25 @@
 				985B9AF82B38519F008CB95A /* AnimationPortfolioiOSAppUITestsLaunchTests.swift */,
 			);
 			path = AnimationPortfolioiOSAppUITests;
+			sourceTree = "<group>";
+		};
+		985B9B052B38530C008CB95A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				985B9B062B38532A008CB95A /* Theme.swift */,
+				985B9B082B385658008CB95A /* Project.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		985B9B0E2B387B31008CB95A /* SpotifyStickyHeader */ = {
+			isa = PBXGroup;
+			children = (
+				985B9B0F2B387B52008CB95A /* SpotifyStickyHeaderDetail.swift */,
+				9824DAD12B3AD3F9007CC34C /* View */,
+				9824DACE2B3AD2F4007CC34C /* Model */,
+			);
+			path = SpotifyStickyHeader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +307,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				985B9ADE2B38519E008CB95A /* ContentView.swift in Sources */,
+				985B9B072B38532A008CB95A /* Theme.swift in Sources */,
+				985B9ADE2B38519E008CB95A /* ProjectList.swift in Sources */,
+				985B9B0B2B386E87008CB95A /* ProjectCardView.swift in Sources */,
+				9824DAD32B3AD4AD007CC34C /* SpotifyHome.swift in Sources */,
+				985B9B102B387B52008CB95A /* SpotifyStickyHeaderDetail.swift in Sources */,
 				985B9ADC2B38519E008CB95A /* AnimationPortfolioiOSAppApp.swift in Sources */,
+				9824DAD02B3AD300007CC34C /* Album.swift in Sources */,
+				985B9B092B385658008CB95A /* Project.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

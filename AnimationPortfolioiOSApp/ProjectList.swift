@@ -8,17 +8,19 @@
 import SwiftUI
 
 struct ProjectList: View {
+    let projects: [Project]
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            List(projects, id: \.id) { project in
+                NavigationLink(destination: project.detailPage) {
+                    ProjectCardView(project: project)
+                }
+            }
+            .navigationTitle("Animation Projects")
         }
-        .padding()
     }
 }
 
 #Preview {
-    ProjectList()
+    ProjectList(projects: Project.sampleData)
 }
